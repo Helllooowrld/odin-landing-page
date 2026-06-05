@@ -18,7 +18,7 @@ a {
   color: #e5e7eb;
 }
 
-.header {
+.header, .footer{
   display: flex;
   /* width: 100%; */
   background: #1f2937;
@@ -154,4 +154,12 @@ button {
 
 p{
   margin: 0px;
+}
+
+.footer{
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+
 }
