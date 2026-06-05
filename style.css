@@ -20,14 +20,14 @@ a {
 
 .header {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   background: #1f2937;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
   flex: initial;
 }
 
-.logo {
+.logo, .boxtext {
   color: #f9faf8;
   font-size: 24px;
 }
@@ -77,6 +77,8 @@ button {
   background-color: #3882f6;
   font-size: 18px;
   color: #f9faf8;
+  border: 2px solid  #1f2937;
+
 }
 
 .info {
@@ -111,10 +113,10 @@ button {
     background-color: #e5e7eb;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     height: 400px;
     flex-direction: column;
-    
+   
 }
 
 .quote{
@@ -128,4 +130,28 @@ button {
     font-size: 24px;
     width: 1050px;
     margin-left: auto;
+}
+
+.signup{
+    height: 400px ;
+    padding: 8px;
+}
+
+.box{
+    width: 1200px;
+    margin: 120px auto;
+    background-color: #3882f6;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signupbu{
+  border: 2px solid white;
+}
+
+p{
+  margin: 0px;
 }
